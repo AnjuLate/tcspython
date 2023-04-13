@@ -1,0 +1,6 @@
+lst=list(map(int,input().split())
+n=len(lst)
+d=int(input())
+
+lst[:]=lst[d:n]+lst[:d]
+print(lst)
